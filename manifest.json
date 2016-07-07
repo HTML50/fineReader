@@ -1,0 +1,28 @@
+﻿{
+  "name": "fineReader",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "make paragraphs look fine, easy to read.",
+"icons": 
+  { 
+    "16": "flower_16px.png",             
+    "48": "flower_48px.png",            
+    "128": "flower_128px.png" 
+  },
+  "browser_action": {
+"default_title": "fineReader",
+"default_icon": "flower_16px.png"
+},
+	"background": {
+      "scripts": [ "js/background.js" ]
+   },
+        "permissions": [
+          "storage"
+        ],
+    "options_page": "options.html",
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "content_scripts": [ {
+      "js": [ "js/jquery.min.js","js/content_scripts.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*" ]
+   } ]
+}  

@@ -1,0 +1,35 @@
+	body{
+		min-width: 857px;
+		overflow-x: hidden;
+		height:500px;
+	}
+	
+	*{
+	margin:0;
+	padding:0;
+	font-family:"MS Mincho","Batang","Dotum";
+	}
+	*:focus {outline: none;} 
+
+	#tooltip{
+	font-family: Georgia, serif;
+    text-shadow: none;
+    color: rgb(68, 68, 17);
+    font-size: 16px;
+    line-height: 25px;
+    position: absolute;
+    z-index: 99991;
+    margin-left: -360px;
+    width: 600px;
+    margin-right: 0px;
+    left: 50%;
+    text-align: left;
+    background: rgb(255, 255, 250);
+    overflow: hidden;
+    padding: 60px;
+    border-radius: 5px;
+		
+	}
+	
+	
+	
