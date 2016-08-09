@@ -119,4 +119,7 @@ var readerDivWidth,readerFontColor,readerFontSize,readerBgColor,readerOverlayCol
 	chrome.storage.sync.set({"fontSize":fontSize},function(){});
 	chrome.storage.sync.set({"overlayColor":JSON.stringify(overlayColor)},function(){});
 	chrome.storage.sync.set({"bgColor":JSON.stringify(bgColor)},function(){});
+	var newNode = document.createElement("span");
+	newNode.innerHTML ="saved ok!";
+	document.getElementById('setting').insertBefore(newNode,null);
 	}
