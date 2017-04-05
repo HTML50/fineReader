@@ -1,15 +1,15 @@
 # fineReader
-a chrome extension for reading
+a chrome extension for better reading
 
 
-###how to use
+### how to use
 1.download the crx files and add it to Chrome
 
 2.refresh your page or open a new one, select some content, and click the flower icon.
 
 3.done, you will see the result
 
-###用法
+### 用法
 
 1.下载CRX
 
@@ -18,3 +18,5 @@ a chrome extension for reading
 3.选文字，点按钮
 
 4.根据个人喜好调节大小、颜色
+
+（如果安装不上，只能解压CRX，以开发者模式添加解压过的扩展程序）
